@@ -19,7 +19,7 @@ export const GetPosts = () => {
     useEffect(() => {
         axios.get('http://localhost:81/getPosts')
             .then(response => setPosts(response.data.posts))
-            .then(alert("Grabing from the database!"))
+            .then(alert("Grabing from the database"))
             .catch(error => console.error(error));
     }, []);
 
