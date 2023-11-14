@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  margin: auto;
+  padding: 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.button-layout {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px 12px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

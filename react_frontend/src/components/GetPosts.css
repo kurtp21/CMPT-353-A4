@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    width: 100%;
+    gap: 0px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    background-color: #202630;
+    padding: 0% 10% 10% 10%;
+    border: 2px solid #000000;
+}
+
+h4 {
+    text-align: left;
+    padding: auto;
+}
+
+li {
+    text-align: left;
+    padding: auto;
+}
